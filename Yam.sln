@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yam", "src\Yam\Yam.csproj",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yam.Generator", "src\Yam.Generator\Yam.Generator.csproj", "{D5292E82-B6D3-4A35-8B10-1B69F9470E0A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "src\tests\ConsoleApp\ConsoleApp.csproj", "{7E6AA7E6-6E15-42C8-89A2-45062B5544D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D5292E82-B6D3-4A35-8B10-1B69F9470E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5292E82-B6D3-4A35-8B10-1B69F9470E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5292E82-B6D3-4A35-8B10-1B69F9470E0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E6AA7E6-6E15-42C8-89A2-45062B5544D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E6AA7E6-6E15-42C8-89A2-45062B5544D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E6AA7E6-6E15-42C8-89A2-45062B5544D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E6AA7E6-6E15-42C8-89A2-45062B5544D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,6 @@
-namespace Yam.Generator;
+using Yam.Generator.MappingProperties;
+
+namespace Yam.Generator.Models;
 
 internal class Mapping
 {
@@ -6,12 +8,12 @@ internal class Mapping
     {
         Source = source;
         Target = target;
-        Properties = new List<MappingProperty>();
+        Properties = new List<IMappingProperty>();
     }
 
     public readonly YamClass Source;
 
     public readonly YamClass Target;
 
-    public readonly List<MappingProperty> Properties;
+    public readonly List<IMappingProperty> Properties;
 }

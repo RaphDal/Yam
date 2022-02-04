@@ -1,4 +1,4 @@
-namespace Yam.Generator;
+namespace Yam.Generator.Constants;
 
 internal static class AttributeNames
 {

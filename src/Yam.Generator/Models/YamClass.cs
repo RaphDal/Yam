@@ -1,13 +1,15 @@
 using Microsoft.CodeAnalysis;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 
-namespace Yam.Generator;
+namespace Yam.Generator.Models;
 
 internal class YamClass
 {
-    public YamClass(string name, string fullName, ITypeSymbol symbol)
+    public YamClass(string name, string fullName, NameSyntax fullNameSyntax, ITypeSymbol symbol)
     {
         Name = name;
         FullName = fullName;
+        FullNameSyntax = fullNameSyntax;
         Symbol = symbol;
         Properties = new Dictionary<string, YamProperty>();
         Targets = new HashSet<string>();
@@ -17,6 +19,8 @@ internal class YamClass
     public string Name { get; }
 
     public string FullName { get; }
+
+    public NameSyntax FullNameSyntax { get; }
 
     public ITypeSymbol Symbol { get; }
 

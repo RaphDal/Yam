@@ -1,4 +1,4 @@
-namespace Yam.Generator;
+namespace Yam.Generator.Models;
 
 internal class YamProperty
 {
